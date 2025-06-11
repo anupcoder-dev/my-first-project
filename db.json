@@ -1,0 +1,53 @@
+{
+  "developers": [
+    {
+      "id": "1",
+      "name": "Jane Doe",
+      "bio": "Full-stack dev with a love for React and Node.",
+      "avatar": "/images/jane.jpg",
+      "skills": ["React", "Node"],
+      "blogs": [
+        {
+          "id": "b1",
+          "title": "Intro to React",
+          "excerpt": "A beginner’s guide to React.",
+          "date": "2025-05-20"
+        }
+      ],
+      "socials": [
+        { "platform": "GitHub", "url": "https://github.com/janedoe" },
+        { "platform": "LinkedIn", "url": "https://linkedin.com/in/janedoe" }
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "blogs": [
+        {
+          "id": 1,
+          "title": "Understanding React Hooks",
+          "excerpt": "React Hooks simplify functional components and make code cleaner.",
+          "content": "In this blog, we’ll explore useState, useEffect, and custom hooks...",
+          "authorId": 101,
+          "date": "2024-11-10"
+        },
+        {
+          "id": 2,
+          "title": "A Guide to Redux Toolkit",
+          "excerpt": "Redux Toolkit reduces boilerplate and improves state management.",
+          "content": "Redux Toolkit provides APIs like createSlice and configureStore...",
+          "authorId": 102,
+          "date": "2025-01-05"
+        },
+        {
+          "id": 3,
+          "title": "Why TypeScript Matters in Frontend Development",
+          "excerpt": "TypeScript adds static typing to JavaScript, helping avoid bugs.",
+          "content": "TypeScript helps large teams catch errors early with its type system...",
+          "authorId": 101,
+          "date": "2025-02-18"
+        }
+      ]
+    }    
+  ]
+}
